@@ -1,0 +1,69 @@
+body{
+	background-color: #EEEEEE;
+	/*background: url('https://i.imgur.com/0bY2qlj.jpg')  100% no-repeat fixed ;*/
+	 
+}
+main{
+	width: 30cm; /* responsive  */
+	margin: auto;
+	max-width: 100%;  /* responsive */
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif; 
+	color: #343a40;
+}
+#title h1, #title p{
+	color: #ffc107;
+	background-color: #343a40;
+	margin: auto;
+	padding: 5pt 0 5pt 0;
+}
+#title h1{
+	font-size: 30pt;
+	 	margin-bottom: 5pt;
+}
+#title p{
+	font-size: 15pt;
+	 
+	margin-bottom: 5pt;
+}
+#img-div{
+	width: 80%;
+	margin: auto;
+	padding-top: 5pt;
+	padding-bottom: 5pt;
+}
+#img-div img{
+	max-width: 100%; /* responsive */ 
+  	display: block;
+  	height: auto;
+  	margin: auto;
+}
+#img-div figcaption{
+	padding-top: 5pt;
+	text-decoration: underline;
+}
+#summary, footer{
+	background-color: #ffc107;
+	padding: 10px;
+	text-align: left; 
+}
+#tribute-info{
+	width: 80%;   /* responsive */
+	margin: auto;
+	background-color: #d6d1d1;
+	font-size: 15pt;
+
+}
+#tribute-info h3{
+	padding: 2%; 
+}
+#tribute-info ul{
+	text-align: left;
+}
+#tribute-info a{
+	color: #343a40;
+	font-weight: bold; 
+}
+#tribute-info a:hover{
+	color: #dc3545;
+}
