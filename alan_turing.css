@@ -1,7 +1,5 @@
 body{
-	background-color: #EEEEEE;
-	/*background: url('https://i.imgur.com/0bY2qlj.jpg')  100% no-repeat fixed ;*/
-	 
+	background-color: #EEEEEE;s
 }
 main{
 	width: 30cm; /* responsive  */
@@ -16,21 +14,22 @@ main{
 	background-color: #343a40;
 	margin: auto;
 	padding: 5pt 0 5pt 0;
+	max-width: 100%;
+	width: 10cm;
 }
 #title h1{
 	font-size: 30pt;
-	 	margin-bottom: 5pt;
+	margin-bottom: 5pt;
+	width: 10cm;
 }
 #title p{
-	font-size: 15pt;
-	 
+	font-size: 15pt; 
 	margin-bottom: 5pt;
 }
-#img-div{
-	width: 80%;
+#img-div{ 
 	margin: auto;
-	padding-top: 5pt;
-	padding-bottom: 5pt;
+	margin-top: 20pt; 
+	margin-bottom: 20pt;
 }
 #img-div img{
 	max-width: 100%; /* responsive */ 
@@ -42,11 +41,6 @@ main{
 	padding-top: 5pt;
 	text-decoration: underline;
 }
-#summary, footer{
-	background-color: #ffc107;
-	padding: 10px;
-	text-align: left; 
-}
 #tribute-info{
 	width: 80%;   /* responsive */
 	margin: auto;
@@ -54,8 +48,23 @@ main{
 	font-size: 15pt;
 
 }
+#summary, footer{
+	background-color: #ffdf7f; 
+	padding: 10pt;
+	text-align: left; 
+	margin: 0;
+	line-height: 20pt;
+}
+#summary{  
+}
+#tribute-info img{
+	width: 2cm;
+	height: 2cm;
+	float: left; 
+	border-radius: 50%;
+}
 #tribute-info h3{
-	padding: 2%; 
+	padding: 5pt;
 }
 #tribute-info ul{
 	text-align: left;
