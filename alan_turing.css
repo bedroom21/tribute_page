@@ -3,86 +3,93 @@
 	padding: 0;
 }
 body{
-	background-color: #dddbdb;
+	background-color: #c9c9c9;
 }
 main{
+	max-width: 900px;
+	width: 80%;
+	margin: auto;
+	margin-top: 1em;
+	margin-bottom: 1em;
 	text-align: center;
 	font-family: 'Josefin Sans', sans-serif;
-	color: #343a40;
-	margin: auto;
-	margin-bottom: 1em;
-	margin-top: 1em;
-	width: 50em;
-	max-width: 95%;
 }
-/*title*/
-#title h1,#title h2{
+
+/*header*/
+#title h1,#title p{
 	background-color: #343a40;
 	color: #ffc107;
+	text-align: center;	
 	margin: auto;
+}
+#title h1{ 
+	font-size: 3em;
+	max-width: 6em;
+	padding: 0.2em;
 	margin-bottom: 0.5em;
 }
-#title h1{
-	font-size: 5em;
-	width: 6em;
-	line-height: 150%;
-}
-#title h2{
-	font-size: 2.3em;
-	width: 16em;
-	max-width: 100%;
-	line-height: 130%;
+#title p{
+	font-size: 2em;
+	max-width: 15em;
+	padding: 0.5em;
+	margin-bottom: 0.5em;
 }
 /*figure*/
+#img-div{ 
+	padding: 0;
+	margin: 0;
+}
 #img-div img{
-	max-width: 100%; 
+	max-width: 100%;
 }
-#img-div #img-caption{
-	font-size: 1.5em;
+#img-div figcaption{
 	text-decoration: underline;
-	padding-bottom: 1em;
+	font-size: 1.1em;
 }
-/*tribute-info*/
-#brief{
-	background-color: #ffc107;
+/*article*/
+#tribute-info{
+	margin-top: 1em;
 }
-#brief img{
+/*summary*/
+#summary img{
 	width: 10em;
 	height: 10em;
-	float: left; 
-	border-radius: 100%;
-	padding: 1em 0 0 1em;
+	float: left;
+	border-radius: 50%;
+	padding: 1em;
 }
-#brief-text{
-	font-size: 1.5em;
-	line-height: 150%;
-	padding: 0.5em;
-	text-align: left;
-}
-/*time-line*/
-#time-line{
-	background-color: #d6d1d1; 
-}
-#time-line p{
-	font-size: 2em;
-	padding: 1em 0 1em 0;
-}
-#time-line ul{
-	font-size: 1.5em;
-	text-align: left;
-	padding-left: 2em;
-	line-height: 110%;
-}
-/*links*/
-#links{
+#summary #sum-text{
 	background-color: #ffc107;
 	font-size: 1.5em;
-	padding: 0.5em;
-	line-height: 150%; 
+	text-align: left;
+	padding: 1em;
+	line-height: 1.5em;
 }
-#links a{
+/*timeline*/
+#timeline{
+	background-color: #d6d6d6;
+	padding: 2em;
+	text-align: left;
+	font-size: 1.2em;
+	line-height: 1.5em;
+}
+#timeline h3{
+	text-align: center;
+	padding-bottom: 1em;
+}
+#timeline b{
+	font-size: 1.5em;
+}
+/*footer*/
+footer{
+	background-color: #ffc107;
+	padding: 1em;
+	font-size: 1.5em;
+}
+footer a{
 	color: #343a40;
+	font-weight: bold;
 }
-#links a:hover{
+footer a:hover{
 	color: #dc3545;
 }
