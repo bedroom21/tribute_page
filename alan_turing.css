@@ -3,7 +3,8 @@
 	padding: 0;
 }
 body{
-	background-color: #e5e3e3;
+	--bg-color: #a09ea0 ;
+	background-color: var(--bg-color)
 }
 main{
 	max-width: 900px;
@@ -14,9 +15,13 @@ main{
 	text-align: center;
 	font-family: 'Josefin Sans', sans-serif;
 	color: #343a40;
+	background: url('img/alan_computer.jpg') fixed ;
 }
 
 /*header*/
+#title{
+	background-color: var(--bg-color);
+}
 #title h1,#title p{
 	background-color: #343a40;
 	color: #ffc107;
@@ -32,26 +37,32 @@ main{
 #title p{
 	font-size: 2em;
 	padding: 0.5em;
-	margin-bottom: 0.5em;
 	max-width: 18em;
 }
 /*figure*/
-#img-div{ 
-	padding: 0;
-	margin: 0;
+#img-div{
+	background-color: var(--bg-color);
+	padding-bottom: 1em;
+	padding-top: 1em; 
 }
 #img-div img{
 	max-width: 100%;
+	display: block;
+	border: white solid 4px;
+	margin: auto;
+	box-shadow: 0 0  5px black;
 }
 #img-div figcaption{
 	text-decoration: underline;
-	font-size: 1.1em;
+	font-size: 1.3em;
+	font-weight: bold;
+	padding-top: 0.5em;
 }
-/*article*/
-#tribute-info{
-	margin-top: 1em;
-}
+
 /*summary*/
+#summary{
+	box-shadow: 0 0  5px black;
+}
 #summary img{
 	width: 10em;
 	height: 10em;
@@ -66,19 +77,23 @@ main{
 	padding: 1em;
 	line-height: 1.5em;
 }
-/*timeline*/
-#timeline{
-	background-color: #d6d6d6;
+#bg{
+	height: 500px;
+}
+/*tribute-info*/
+#tribute-info{
+	background-color: #bebcbe;
+	box-shadow: 0 0  5px black;
 	padding: 2em;
 	text-align: left;
 	font-size: 1.2em;
-	line-height: 1.5em;
+	line-height: 3em;  
 }
-#timeline h3{
+#tribute-info h3{
 	text-align: center;
 	padding-bottom: 1em;
 }
-#timeline b{
+#tribute-info b{
 	font-size: 1.3em;
 }
 /*footer*/
@@ -86,6 +101,7 @@ footer{
 	background-color: #ffc107;
 	padding: 1em;
 	font-size: 1.5em;
+	box-shadow: 0 0  5px black;
 }
 footer a{
 	color: #343a40;
