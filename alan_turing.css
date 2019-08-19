@@ -53,7 +53,6 @@ main{
 	box-shadow: 0 0  5px black;
 }
 #img-div figcaption{
-	text-decoration: underline;
 	font-size: 1.3em;
 	font-weight: bold;
 	padding-top: 0.5em;
@@ -81,7 +80,7 @@ main{
 	font-weight: bold;
 }
 #bg{
-	height: 500px;
+	height: 300px;
 }
 /*tribute-info*/
 #tribute-info{
